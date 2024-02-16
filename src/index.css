@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-family: lobsterTwo;
+}
+
+body {
+  font-family: poppins;
+}
+
+p {
+  font-size: 19px;
+}
+
+.sub-heading {
+  @apply text-[32px] font-bold tracking-[.2rem] uppercase;
+}
+
+.swiper-wrapper {
+  flex-direction: row !important;
+  margin-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+  width: 40px;
+  border-radius: 0px;
+  margin-inline: 0 !important;
+  background-color: gray !important;
+}
+
+.swiper-pagination-bullet:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.swiper-pagination-bullet:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #00fd89 !important;
+}
